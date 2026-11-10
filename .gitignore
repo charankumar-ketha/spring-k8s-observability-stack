@@ -1,0 +1,33 @@
+# Logs & port-forward process output
+*.log
+spring-pf.log
+prom-pf.log
+grafana-pf.log
+spring.log
+prometheus.log
+grafana.log
+reboot.log
+
+# Build outputs & dependencies
+target/
+*.jar
+*.war
+*.class
+.mvn/
+
+# IDE & Editor files
+.idea/
+*.iml
+.vscode/
+
+# Secrets, environment & SSL/TLS files
+.env
+*.env
+*.pem
+*.key
+*.cert
+*.crt
+
+# OS metadata
+.DS_Store
+Thumbs.db
